@@ -1,0 +1,38 @@
+.form-container {
+  display: grid;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.field-group {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.label {
+  padding: 8px;
+}
+
+.field {
+  margin-bottom: 36px;
+  padding: 8px;
+}
+
+.error-message {
+  position: absolute;
+  top: 36px;
+  left: 30%;
+  color: rgb(167, 43, 43);
+}
+
+.submit-btn {
+  padding: 8px;
+  width: 150px;
+  border: none;
+  box-shadow: rgba(36, 36, 37, 0.2) 0px 7px 29px 0px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  justify-self: end;
+}

@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "name": "shoe 1",
+            "price": 100,
+            "path": "./img/1.jpeg",
+            "articul": 1,
+            "colour": "white"
+        },
+        {
+            "name": "shoe 2",
+            "price": 200,
+            "path": "./img/2.jpeg",
+            "articul": 2,
+            "colour": "red"
+        },
+        {
+            "name": "shoe 3",
+            "price": 300,
+            "path": "./img/3.jpeg",
+            "articul": 3,
+            "colour": "green"
+        },
+        {
+            "name": "shoe 4",
+            "price": 400,
+            "path": "./img/4.jpeg",
+            "articul": 4,
+            "colour": "white"
+        },
+        {
+            "name": "shoe 5",
+            "price": 500,
+            "path": "./img/5.jpeg",
+            "articul": 5,
+            "colour": "black"
+        },
+        {
+            "name": "shoe 6",
+            "price": 600,
+            "path": "./img/6.jpeg",
+            "articul": 6,
+            "colour": "black"
+        },
+        {
+            "name": "shoe 7",
+            "price": 700,
+            "path": "./img/7.jpeg",
+            "articul": 7,
+            "colour": "yellow"
+        },
+        {
+            "name": "shoe 8",
+            "price": 250,
+            "path": "./img/8.jpeg",
+            "articul": 8,
+            "colour": "lightred"
+        },
+        {
+            "name": "shoe 9",
+            "price": 650,
+            "path": "./img/9.jpeg",
+            "articul": 9,
+            "colour": "green"
+        },
+        {
+            "name": "shoe 10",
+            "price": 1500,
+            "path": "./img/10.jpeg",
+            "articul": 10,
+            "colour": "black"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+.item-card {
+    width: 200px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: rgb(162, 183, 202);
+    display: grid;
+    font-size: 18px;
+    padding-top: 0px;
+    position: relative;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+    .cross {
+        position: absolute;
+        top: -4px;
+        left: -8px;
+        padding: 4px;
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        width: 16px;
+        height: 16px;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        background-color: rgb(78, 78, 161);
+        color: white;
+        font-weight: bold;
+        border-radius: 50%;
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 0 4px 8px;        
+    }
+
+    .item-heart {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+    }
+
+    .item-img {
+        width: 100%;
+        height: 200px;
+        align-self: start;
+        object-fit: cover;
+    }
+
+    .item-description {
+        padding: 16px;
+
+        .item-title {
+            margin: 0;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .item-price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+
+            .change-qty-btns {
+                display: flex;
+
+                .qty-in-cart {
+                    width: 32px;
+                    background-color: rgba(34, 60, 80, 0.5);
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            .item-price {
+                margin-right: 8px;
+                font-size: 20px;
+            }
+
+            .change-qty-cart-btn {
+                font-weight: 700;
+                padding: 8px;
+                box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+                border: none;
+                color: white;
+                background-color: rgb(78, 78, 161);
+                width: 32px;
+                cursor: pointer;
+            }
+
+            .add-to-cart-btn {
+                @extend .change-qty-cart-btn;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+            }
+
+            .remove-from-cart-btn {
+                @extend .change-qty-cart-btn;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+            }
+        }
+    }
+}
